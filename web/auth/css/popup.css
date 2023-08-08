@@ -1,0 +1,33 @@
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    text-align: center;
+}
+
+.popup.active {
+    display: block;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: red;
+    border: #ff3300;
+}
+.popup-content p{
+    font-family: "roboto";
+    color: black;
+    text-align: left;
+}
